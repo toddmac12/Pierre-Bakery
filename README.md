@@ -10,13 +10,17 @@ A program that lets the user order bakery items and get a total cost of the orde
 
 ## Specifications
 
-| Specification       | Example Input          | Example Output |
-| ------------------- | ---------------------- | -------------- |
-|                     |                        |                |
-|                     |                        |                |
-|                     |                        |                |
-|                     |                        |                |
-
+| Specification                            | Example Input     | Exampl Output |
+| ---------------------------------------- | ----------------- |---------------|
+| A single loaf costs $5                   |    1              |      $5       |
+| Two loaves costs $10                     |    2              |      $10      |
+| Buy 2 breads, get 1 free                 |    3              |      $10      |
+| (every 3rd loaf of bread is free.)       |                   |               ||                                          |                   |               |
+| Buy 1 pastry for $2                      |    1              |      $2       |
+| Buy 3 pastry for $5.                     |    3              |      $5       |
+| Buy 4 pastries for $7                    |    4              |      $7       |
+| Buy 5 pastries for $9                    |    5              |      $9       |
+| Buy 6 pastries for $10.                  |    6              |      $10      |
 
 
 ## Setup/Installation Requirements
