@@ -14,7 +14,7 @@ namespace PierresBakery.Tests
       Bread newBread = new Bread(5);
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
- [TestMethod]
+    [TestMethod]
     public void GetBreadPrice_ReturnsBreadPrice_Int()
     {
       int breadPrice = 5;
@@ -22,7 +22,7 @@ namespace PierresBakery.Tests
       int result = newBread.BreadPrice;
       Assert.AreEqual(breadPrice, result);
     }
- [TestMethod]
+    [TestMethod]
     public void GetBreadQuantity_ReturnsBreadQuantity_Int()
     {
       int breadQuantity = 1;
@@ -30,10 +30,10 @@ namespace PierresBakery.Tests
       int result = newBread.BreadQuantity;
       Assert.AreEqual(breadQuantity, result);
     }
- [TestMethod]
+    [TestMethod]
 
     public void
-    TotalBreadPrice_ReturnsBreadPriceTimesBreadQuantity_Int()
+       TotalBreadPrice_ReturnsBreadPriceTimesBreadQuantity_Int()
     {
       int orderBreadQuantity = 1;
       int totalBreadPriceTest = 5;
@@ -42,10 +42,11 @@ namespace PierresBakery.Tests
       int totalBreadPrice = newBread.TotalBreadPrice();
       Assert.AreEqual(totalBreadPriceTest, totalBreadPrice);
     }
- [TestMethod]
+    [TestMethod]
 
     public void
-    TotalBreadPrice_ReturnsBreadPriceThreeForPriceOfTwo_Int(){
+       TotalBreadPrice_ReturnsBreadPriceThreeForPriceOfTwo_Int()
+    {
       int totalBreadQuantity = 3;
       int totalBreadPriceTest = 10;
       Bread newBread = new Bread(totalBreadQuantity);

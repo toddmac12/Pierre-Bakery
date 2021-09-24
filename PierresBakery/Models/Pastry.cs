@@ -7,13 +7,13 @@ namespace PierresBakery.Models
   {
     public int PastryPrice { get; set; } = 2;
 
-    public int PastryQuantity {get; set;}
+    public int PastryQuantity { get; set; }
 
     public Pastry(int pastryQuantity)
     {
-    PastryQuantity = pastryQuantity;
+      PastryQuantity = pastryQuantity;
     }
- public int TotalPastryPrice()
+    public int TotalPastryPrice()
     {
       if (PastryQuantity % 3 == 0)
       {
@@ -29,7 +29,7 @@ namespace PierresBakery.Models
       {
         return PastryPrice * PastryQuantity;
       }
-      
+
     }
   }
 }
