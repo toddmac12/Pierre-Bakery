@@ -1,23 +1,22 @@
 # PierresBakery
 
-#### 
+####
 
 #### By _Anthony McRae_
 
 ## Description
 
-A program that lets the user can order bakery items and get a totle cost of the order.
+A program that lets the user order bakery items and get a total cost of the order.
 
 ## Specifications
 
-| Specification | Example Input | Example Output | 
-| ------------- | ------------- | -------------- |
-| Buy loaves of Bread for $5 | 1 | $5 |
-| Buy pastries for $2 | 2 | $4 |
-| Buy loaves of Bread for $5 and pastries for $2  | 1 loaf of bread, 2 pastry | $9 |
-| Buy 2 bread get 1 free | 7 loaves | $25 |
-| Buy 3 pastries for $5 | 7 pastries | $12 | 
-| Buy multiple loaves and pastries with discounts | 7 loaves, 7 pastries | $37 |
+| Specification       | Example Input          | Example Output |
+| ------------------- | ---------------------- | -------------- |
+|                     |                        |                |
+|                     |                        |                |
+|                     |                        |                |
+|                     |                        |                |
+
 
 
 ## Setup/Installation Requirements
@@ -33,7 +32,7 @@ A program that lets the user can order bakery items and get a totle cost of the 
 
 ## Known Bugs
 
-* _None 
+* _None
 
 
 ## License
