@@ -22,5 +22,14 @@ namespace PierresBakery.Tests
       int result = newBread.BreadPrice;
       Assert.AreEqual(breadPrice, result);
     }
+ [TestMethod]
+    public void GetBreadQuantity_ReturnsBreadQuantity_Int()
+    {
+      int breadQuantity = 1;
+      Bread newBread = new Bread(breadQuantity);
+      int result = newBread.BreadQuantity;
+      Assert.AreEqual(breadQuantity, result);
+    }
+
   }
 }
