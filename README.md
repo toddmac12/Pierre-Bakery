@@ -34,6 +34,12 @@ A program that lets the user order bakery items and get a total cost of the orde
 *_Navigate to "..\PierresBakery.Tests\" directory in your terminal_
 *_Enter the command `$ dotnet test`_
 
+## Technologies Used
+* C#
+* dotnet
+* Git
+* Git Hub
+
 ## Known Bugs
 
 * _None
