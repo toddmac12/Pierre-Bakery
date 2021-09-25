@@ -10,7 +10,7 @@ A program that lets the user order bakery items and get a total cost of the orde
 
 ## Specifications
 
-| Specification                            | Example Input     | Exampl Output |
+| Specification                            | Example Input     |Example Output |
 | ---------------------------------------- | ----------------- |---------------|
 | A single loaf costs $5                   |    1              |      $5       |
 | Two loaves costs $10                     |    2              |      $10      |
