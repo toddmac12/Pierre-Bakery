@@ -21,6 +21,8 @@ A program that lets the user order bakery items and get a total cost of the orde
 | Buy 4 pastries for $7                    |    4              |      $7       |
 | Buy 5 pastries for $9                    |    5              |      $9       |
 | Buy 6 pastries for $10.                  |    6              |      $10      |
+|------------------------------------------|-------------------|---------------|
+| Buy 3 bread, 6 pastries                  |3 Bread, 6 pastries|     $20       | 
 
 
 ## Setup/Installation Requirements
